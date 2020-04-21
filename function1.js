@@ -1,8 +1,14 @@
-function createGreeting(name, age){ 
-    let age = 53;
-    let name = "Mr. Bojangles"
-    const yearOfBirth = 2020 - age;
-    return("Hello my name is " + name + ", I was born in " + yearOfBirth);
+
+function createGreeting(){ 
+    let name = "Mr. Bojangles";
+    return("Hello my name is " + name);
 }
+
+function getYearOfBirth(){
+    let age = 53;
+    const yob = 2020 - age;
+    return("I was born in" + yob);
+  }
+  
 const greeting1 = createGreeting();
 console.log(greeting1);
