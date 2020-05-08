@@ -1,3 +1,5 @@
+// Function Drills 1
+
 'use strict';
 
 // 8 Force an error for arguments of incorrect types
@@ -9,8 +11,7 @@ function createGreeting(name, age) {
     throw new Error('Arguments not valid. name must be a string. age must be positive number');}
 
   if (typeof name !== 'string' || typeof age !== 'number') {
-    throw new TypeError(`Name must be 'string'. Age must be positive 'number'`)
-  }
+    throw new TypeError(`Name must be 'string'. Age must be positive 'number'`);}
 
   if(age < 0) {
     throw new Error('Age can not be negative');}
@@ -22,5 +23,5 @@ function createGreeting(name, age) {
 try {
   const greeting1 = (createGreeting('Gharu',198)) ;
   console.log(greeting1);}
-catch(e) {console.error(e.message)}
+catch(e) {console.error(e.message);}
 
