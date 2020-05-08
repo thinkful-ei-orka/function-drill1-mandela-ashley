@@ -1,11 +1,10 @@
 'use strict';
 
-// 3 Have function return and log returned value from variable
-function createGreeting() {
-  return "Hi my name is Dela and I'm 99 years old" ;
+// 4 Change return string to use name and age parameters passed into function
+function createGreeting(name, age) {
+  return `Hi my name is ${name} and I'm ${age} years old` ;
 }
 
-createGreeting();
 
-const greeting1 = (createGreeting()) ;
+const greeting1 = (createGreeting('Ghorb', 198)) ;
 console.log(greeting1);
