@@ -1,8 +1,9 @@
 'use strict';
 
-// 4 Change return string to use name and age parameters passed into function
+// 5 Create variable yearOfBirth to calculate year based on age
 function createGreeting(name, age) {
-  return `Hi my name is ${name} and I'm ${age} years old` ;
+  const yearOfBirth = 2020 - age
+  return `Hi my name is ${name} and I'm ${age} years old. I was born in ${yearOfBirth}` ;
 }
 
 
